@@ -23,7 +23,8 @@ RENAME: This is used to rename an object existing in the database.
 
 ### SQL QUERY: 
 ```sql
-CREATE TABLE student1 (rollno INT PRIMARY KEY, name VARCHAR(255), age INT, address VARCHAR(255), phoneno VARCHAR(15));
+CREATE TABLE student1 (rollno INT PRIMARY KEY, name VARCHAR(255), age INT,
+address VARCHAR(255), phoneno VARCHAR(15));
  
  desc student1;
 ```
