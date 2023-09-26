@@ -22,9 +22,11 @@ RENAME: This is used to rename an object existing in the database.
 ### 1) Create a table student with the following fieds rollno,name,age,address,phoneno.
 
 ### SQL QUERY: 
- CREATE TABLE student1 (rollno INT PRIMARY KEY, name VARCHAR(255), age INT, address VARCHAR(255), phoneno VARCHAR(15));
+```sql
+CREATE TABLE student1 (rollno INT PRIMARY KEY, name VARCHAR(255), age INT, address VARCHAR(255), phoneno VARCHAR(15));
  
  desc student1;
+```
 
 ### OUTPUT:
 ![out](d1.png)
@@ -32,23 +34,27 @@ RENAME: This is used to rename an object existing in the database.
 ### 2) Change the above student table by adding another attribute department
 
 ### SQL QUERY: 
+```sql
  ALTER TABLE student1 ADD department VARCHAR(50);
- 
+ ```
 ### OUTPUT:
  ![out](d2.png)
 
 ### 3) Drop the student table
  
-### SQL QUERY:  DROP TABLE student1;
- ![out](d3.png)
-
+### SQL QUERY: 
+```sql
+DROP TABLE student1;
+```
 ### OUTPUT:
-
+ ![out](d3.png)
 
 ### 4) Delete the student table using truncate keyword
 
 ### SQL QUERY: 
+```sql
 TRUNCATE TABLE student;
+```
 
 ### OUTPUT:
 ![out](d4.png)
@@ -57,8 +63,9 @@ TRUNCATE TABLE student;
 ### 5) Rename the student table to mystudent
 
 ### SQL QUERY: 
+```sql
 ALTER TABLE student1 RENAME TO mystudent;
-
+```
 ### OUTPUT:
 ![out](d5.png)
 
