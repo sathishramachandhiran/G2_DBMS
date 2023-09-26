@@ -70,5 +70,11 @@ ALTER TABLE student1 RENAME TO mystudent;
 ### OUTPUT:
 ![out](d5.png)
 
+```
+SUBMITTED BY :
+NAME : SATHISH R
+REGNO: 212222100048
+```
+
 ## RESULT:
   Thus the table student database is created and DDL queries are executed using SQL.
